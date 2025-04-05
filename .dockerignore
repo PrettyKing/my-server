@@ -1,0 +1,6 @@
+logs/
+package-lock.json
+run/
+temp/
+typings/
+doc/
