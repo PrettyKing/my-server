@@ -1,4 +1,4 @@
-FROM node:18 AS build
+FROM node AS build
 
 WORKDIR /app
 
@@ -8,7 +8,7 @@ RUN npm install
 
 RUN npm run build
 
-FROM node:18-alpine
+FROM node
 
 WORKDIR /app
 
